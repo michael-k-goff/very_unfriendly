@@ -1,0 +1,30 @@
+<html>
+<head>
+  <script src="vu.js"></script>
+  <script src="maps.js"></script>
+  <script src="combat.js"></script>
+  <script src="map_data.js"></script>
+  <script src="enemies.js"></script>
+</head>
+
+<body>
+    <h1>
+      Very Unfriendly
+    </h1>
+	<div style="float: left">
+		<canvas id="gameBox" width="640" height="480" style="border:1px solid #000000;">
+		</canvas>
+		<br>by <a href="https://github.com/pepper2000">Michael Goff</a>
+	</div>
+	<div style="float: left; margin-left:50px">
+        <p>
+			HP: <text id="hp">?</text>/<text id="max_hp">?</text> (+<text id="regen">?</text> HP per second)
+			<br>Attack Power: <text id="attack_power">?</text> (<text id="frequency">?</text> Hits per second)
+			<br>Attack Range: <text id="range">?</text> (<text id="accuracy">?</text> Accuracy)
+			<br>Level: <text id="level">?</text> (<text id="exp">?</text>/<text id="exp_next">?</text> EXP)
+			<br>Location: World <text id="location">?</text>
+			<p>Instructions: Up, Down, Left, Right arrows to move.<br>Hover mouse over nearby enemies to attack.<br>Don't let them hit you.
+		</p>
+	</div>
+</body>
+</html>
