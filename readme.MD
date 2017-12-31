@@ -4,7 +4,7 @@ Very Unfriendly is a minimalist HTML5 game.
 
 ### Instructions
 
-It should play in the browser (tested on Chrome Version 63.0.3239.84). The objective is to get through as many screens, or reach as high a level, as you can before losing interest.
+It should play in the browser (tested on Chrome Version 63.0.3239.84). Download all files and play locally. The objective is to get through as many screens, or reach as high a level, as you can before losing interest.
 
 * Move: Left, Right, Up, Down arrows.
 * Attack: Hover mouse over enemy.
